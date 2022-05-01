@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="git"
+          fetch="https://github.com/lolipuru" />
+  
+  <!-- Trees -->
+        <project path="device/xiaomi/perseus" name="a12_perseus_tree" remote="git" revision="arcana" />
+        <project path="device/xiaomi/sdm845-common" name="a12_perseus_tree" remote="git" revision="common" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="git" revision="a12" />
+        <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="git" revision="lineage-18.1" />
+
+</manifest>

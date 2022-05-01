@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="git"
+  <remote name="git-loli"
           fetch="https://github.com/lolipuru" />
+  <remote name="git-lineage"
+          fetch="https://github.com/Lineageos" />
   
   <!-- Trees -->
-        <project path="device/xiaomi/perseus" name="a12_perseus_tree" remote="git" revision="arcana" />
-        <project path="device/xiaomi/sdm845-common" name="a12_perseus_tree" remote="git" revision="common" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="git" revision="a12" />
-        <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="git" revision="lineage-18.1" />
+        <project path="device/xiaomi/perseus" name="a12_perseus_tree" remote="git-loli" revision="arcana" />
+        <project path="device/xiaomi/sdm845-common" name="a12_perseus_tree" remote="git-loli" revision="common" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="git-loli" revision="a12" />
+        <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="git-lineage" revision="lineage-18.1" />
 
 </manifest>

@@ -14,4 +14,7 @@ Kernel:<br/>
 Vendor:<br/>
 [MrAidanlw97/proprietary_vendor_xiaomi](http://gitlab.com/MrAidanlw97/proprietary_vendor_xiaomi "MrAidanlw97/proprietary_vendor_xiaomi") vendor/xiaomi
 
+Hardware:<br/>
+[MrAidanlw97/android_hardware_xiaomi](https://github.com/MrAidanlw97/android_hardware_xiaomi "MrAidanlw/android_hardware_xiaomi") hardware/xiaomi
+
 Thanks to LineageOS and The Muppets to which my repos are forked from

@@ -2,9 +2,9 @@
 
 clone to .repo/local_manifests
 
-Alternatively, copy and paste the following:
+Alternatively, copy and paste the following:<br/>
 ```wget https://bit.ly/3v7U0uz -O perseus.sh; chmod +x perseus.sh;```
-Then you can run the file adding the branch you want to use.  E.g:
+Then you can run the file adding the branch you want to use.  E.g:<br/>
 ```./perseus.sh lineage-19.1```
 
 ------------

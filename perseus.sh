@@ -15,7 +15,7 @@ echo "${bold}Downloading SDM845 Kernel Tree${normal}"
 git clone https://github.com/MrAidanlw97/android_kernel_xiaomi_sdm845 -b $1 kernel/xiaomi/sdm845 > /dev/null
 
 echo "${bold}Downloading Xiaomi Vendor Tree${normal}"
-git clone https://gitlab.com/the-muppets/proprietary_vendor_xiaomi -b $1 vendor/xiaomi > /dev/null
+git clone https://gitlab.com/MrAidanlw97/proprietary_vendor_xiaomi -b $1 vendor/xiaomi > /dev/null
 
 echo "${bold}Downloading Xiaomi Hardware Tree${normal}"
 git clone https://github.com/MrAidanlw97/android_hardware_xiaomi hardware/xiaomi > /dev/null
